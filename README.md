@@ -18,7 +18,7 @@ If you run into problems see the [Troubleshooting](#Troubleshooting) below and l
   * On Windows:
     ```
     python -m venv env
-    .\env\Scripts\activate
+    .\env\Scripts\activate.bat
     where python
     ```
 3. Install necessary packages. Note that you have to install the exact versions of the packages.
