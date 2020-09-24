@@ -1,5 +1,10 @@
-# Altair and JupyterLab setup
+# Assignment — Altair & JupyterLab Setup
 ​
+This repository is your starting point for the assignment and includes the instructions below.
+
+
+## Aim of the assignment
+
 [Altair](https://altair-viz.github.io/) is a declarative statistical visualization library for Python, based on [Vega](http://vega.github.io/vega) and [Vega-Lite](http://vega.github.io/vega-lite).
 We will use it in class so we want to get set up with it on your laptop.
 
@@ -78,7 +83,8 @@ If you run into problems see the [Troubleshooting](#Troubleshooting) below and l
 * There is also a useful [Spellchecker](https://github.com/ijmbarr/jupyterlab_spellchecker) extension.
   *  To install run: `jupyter labextension install @ijmbarr/jupyterlab_spellchecker`
 
-​
+​* To install both of the above run: `jupyter labextension install @jupyterlab/toc @ijmbarr/jupyterlab_spellchecker`
+
 # Troubleshooting
 
 * If you get a `NotImplementedError` for `asyncio` while running Python 3.8,
@@ -97,3 +103,43 @@ if sys.platform == 'win32':
 * The developers of Altair sometimes release a new version via pip and update the documentation before it is stable.
     Note that the documentation version and altair version you are using may be out of sync.
     In this assignment, using the `requirements.txt` file we are asking you to install a particular version to avoid some issues like this.
+
+## Assignment Setup (For Instructors Only):
+
+### Create Repo
+
+1. Go to this year's staff GitHub organization.
+
+1. Create the new repository using a meaningful name, consistent with the other assignments for this class and with Canvas.
+
+1. Clone the repository locally.
+
+1. Copy in the files from last year and make any necessary updates, *including assignment links to Canvas.*
+
+1. Commit and push changes.
+
+### Template Repository
+
+1. On GitHub, go to `Settings` and check the box for `Template repository` at the top. This makes GitHub Classroom copies much faster.
+
+### GitHub Classroom
+
+1. Create the assignment on GitHub Classroom.
+
+1. Set the assignment title to be the same as on Canvas and consistent with the other assignments for this class.
+
+1. Change the pre-set repository prefix so that it includes two dashes (--) between the type of assignment and the name of it. E.g., `in-class-programming--javascript` and `assignment--altair-and-jupyterlab-setup`.
+
+1. Set the deadline (23:59 of the due day), make sure it matches the assignment on Canvas, and make sure it is Eastern time.
+
+1. Make the repository Public.
+
+1. Set the template repository (where this file is) as the starter code.
+
+1. Enable feedback pull requests.
+
+1. Update assignment.
+
+1. Enable the assignment invitation URL.
+
+1. In the Canvas assignment, replace the old assignment invitation URL and template repo link URLs with the new ones.
