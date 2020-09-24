@@ -2,7 +2,6 @@
 ​
 This repository is your starting point for the assignment and includes the instructions below.
 
-
 # Aim of the assignment
 
 [Altair](https://altair-viz.github.io/) is a declarative statistical visualization library for Python, based on [Vega](http://vega.github.io/vega) and [Vega-Lite](http://vega.github.io/vega-lite).
@@ -10,16 +9,12 @@ We will use it in class so we want to get set up with it on your laptop.
 
 If you run into problems see the [Troubleshooting](#Troubleshooting) below and look at the source code and documentation  for Altair on [GitHub](http://github.com/altair-viz/altair).
 
-# Submission instructions
-
-There is nothing to submit.
-
 # Instructions
 
 ## Setup instructions
 
 1. Clone the repo.
-2. `CD` to the repo directory. Create and activate a virtual environment for this project. You may need to modify the code you use depending on what Python you have installed and how your machine is configured.
+1. `CD` to the repo directory. Create and activate a virtual environment for this project. You may need to modify the code you use depending on what Python you have installed and how your machine is configured.
   * On macOS or Linux:
     ```
     python3 -m venv env
@@ -32,7 +27,7 @@ There is nothing to submit.
     .\env\Scripts\activate.bat
     where python
     ```
-3. Install necessary packages. Note that you have to install the exact versions of the packages.
+1. Install necessary packages. Note that you have to install the exact versions of the packages.
     ```
     pip install -r requirements.txt
     ```
@@ -45,16 +40,19 @@ There is nothing to submit.
 ## Quit instructions
 1. Make sure to save your .ipynb file and shutdown Jupyter Lab properly through the file menu. Otherwise you need to use `jupyter notebook stop`.
 ​
-2. Deactivate the venv to return to your terminal using `deactivate`.
+1. Deactivate the venv to return to your terminal using `deactivate`.
 
-## Directions for committing
+## Commit and push your code (but first...)
 
 1. If you have made any changes to the required packages you should export a list of all installed packages and their versions:
    ```
    pip freeze > requirements.txt
    ```
 
-2. **Before you commit a Jupyter Notebook .ipynb file, clear the outputs of all cells.** This decreases file size, removes unnecessary metadata, and makes diffs easier to understand. In Jupyter Lab you can use the GUI: Edit->Clear All Outputs.
+1. **Before you commit a Jupyter Notebook .ipynb file, clear the outputs of all cells.** This decreases file size, removes unnecessary metadata, and makes diffs easier to understand. In Jupyter Lab you can use the GUI: Edit->Clear All Outputs.
+
+1. Finally, commit all your local code and push it to your remote GitHub Classroom-generated repository.
+
 
 ### Optional git setup to automatically clear metadata using JQ (Highly Recommended)
 
@@ -110,9 +108,13 @@ if sys.platform == 'win32':
     Note that the documentation version and altair version you are using may be out of sync.
     In this assignment, using the `requirements.txt` file we are asking you to install a particular version to avoid some issues like this.
 
-## Assignment Setup (For Instructors Only):
+# Submission instructions
 
-### Create Repo
+There is nothing to submit.
+
+# Assignment Setup (For Instructors Only)
+
+## Create Repo
 
 1. Go to this year's staff GitHub organization.
 
@@ -124,11 +126,11 @@ if sys.platform == 'win32':
 
 1. Commit and push changes.
 
-### Template Repository
+## Template Repository
 
 1. On GitHub, go to `Settings` and check the box for `Template repository` at the top. This makes GitHub Classroom copies much faster.
 
-### GitHub Classroom
+## GitHub Classroom
 
 1. Create the assignment on GitHub Classroom.
 
