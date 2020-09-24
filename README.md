@@ -3,14 +3,20 @@
 This repository is your starting point for the assignment and includes the instructions below.
 
 
-## Aim of the assignment
+# Aim of the assignment
 
 [Altair](https://altair-viz.github.io/) is a declarative statistical visualization library for Python, based on [Vega](http://vega.github.io/vega) and [Vega-Lite](http://vega.github.io/vega-lite).
 We will use it in class so we want to get set up with it on your laptop.
 
 If you run into problems see the [Troubleshooting](#Troubleshooting) below and look at the source code and documentation  for Altair on [GitHub](http://github.com/altair-viz/altair).
 
-# Setup instructions
+# Submission instructions
+
+There is nothing to submit.
+
+# Instructions
+
+## Setup instructions
 
 1. Clone the repo.
 2. `CD` to the repo directory. Create and activate a virtual environment for this project. You may need to modify the code you use depending on what Python you have installed and how your machine is configured.
@@ -31,17 +37,17 @@ If you run into problems see the [Troubleshooting](#Troubleshooting) below and l
     pip install -r requirements.txt
     ```
 
-# Run instructions
+## Run instructions
 
 1. Run `jupyter lab`. It should open your browser and let you select select any Jupyter Notebook .ipynb file.
 2. Run individual cells with `ctrl+enter`. In the menu you can run all cells and restart the kernel to clear variables.
 ​
-# Quit instructions
+## Quit instructions
 1. Make sure to save your .ipynb file and shutdown Jupyter Lab properly through the file menu. Otherwise you need to use `jupyter notebook stop`.
 ​
 2. Deactivate the venv to return to your terminal using `deactivate`.
 
-# Directions for committing
+## Directions for committing
 
 1. If you have made any changes to the required packages you should export a list of all installed packages and their versions:
    ```
@@ -50,7 +56,7 @@ If you run into problems see the [Troubleshooting](#Troubleshooting) below and l
 
 2. **Before you commit a Jupyter Notebook .ipynb file, clear the outputs of all cells.** This decreases file size, removes unnecessary metadata, and makes diffs easier to understand. In Jupyter Lab you can use the GUI: Edit->Clear All Outputs.
 
-## Optional git setup to automatically clear metadata using JQ (Highly Recommended)
+### Optional git setup to automatically clear metadata using JQ (Highly Recommended)
 
 1. Install JQ by running `sudo apt-get install jq`. For more options check [here](https://stedolan.github.io/jq/download/).
 2. Append the following block of code either in your local repo `.gitconfig` file or your global `.gitconfig`. I would recommend to do it in your global `.gitconfig` so you don't need to redo that for future .ipynb files.<br>
