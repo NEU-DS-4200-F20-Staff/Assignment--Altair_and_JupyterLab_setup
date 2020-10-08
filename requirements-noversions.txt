@@ -1,0 +1,7 @@
+altair
+vega_datasets
+altair-data-server
+jupyterlab
+numpy
+pandas
+scipy

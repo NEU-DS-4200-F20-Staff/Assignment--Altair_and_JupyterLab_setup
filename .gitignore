@@ -100,10 +100,16 @@ celerybeat-schedule
 .env
 .venv
 env/
+env-work/
+env-home/
+env-mobile/
 venv/
 ENV/
 env.bak/
 venv.bak/
+env-work.bak/
+env-home.bak/
+env-mobile.bak/
 
 # Spyder project settings
 .spyderproject
