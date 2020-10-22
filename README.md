@@ -7,7 +7,7 @@ This repository is your starting point for the assignment and includes the instr
 [Altair](https://altair-viz.github.io/) is a declarative statistical visualization library for Python, based on [Vega](http://vega.github.io/vega) and [Vega-Lite](http://vega.github.io/vega-lite).
 We will use it in class so we want to get set up with it on your laptop.
 
-If you run into problems see the **Tips and tricks, including troubleshooting** section below.
+If you run into problems see the **Tips, tricks, and troubleshooting** section below.
 
 # Instructions
 
